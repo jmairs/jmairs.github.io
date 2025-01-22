@@ -29,6 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -49,3 +50,7 @@ collections:
   posts:
     output: true
     permalink: /notes/:year/:month/:day/:title
+
+# Pagination
+paginate: 10
+paginate_path: "/notes/page:num/"

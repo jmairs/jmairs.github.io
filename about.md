@@ -20,4 +20,4 @@ And a non-exhaustive list of my skills:
 - Identity and access management, including SAML and OIDC
 - Video editing
 
-Interested in learning more? [Get in touch sometime!](/contact.html) :)
+Interested in learning more? [Get in touch sometime!](/contact) :)
