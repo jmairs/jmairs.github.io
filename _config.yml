@@ -41,3 +41,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Permalinks
+## Global
+permalink: /:title
+collections:
+  posts:
+    output: true
+    permalink: /notes/:year/:month/:day/:title

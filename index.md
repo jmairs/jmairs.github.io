@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Welcome!
+order: 1
 ---
 Hello! This is my personal website, created primarily as a living resumé, public notepad, and privately-hosted social media channel all in one.
 

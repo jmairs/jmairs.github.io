@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+order: 2
 ---
 
 My current employers include:
