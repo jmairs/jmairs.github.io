@@ -14,7 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: John Mairs
-email: john@mairs.me
+author:
+  name: John Mairs
+  email: "john@mairs.me"
 description: >- # this means to ignore newlines until "baseurl:"
   John Mairs is a well-rounded IT professional with a wealth of experience in the education and
   healthcare sectors. This serves as his personal portfolio and blog.
@@ -25,11 +27,12 @@ bluesky_username: john.mairs.me
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme
+remote-theme: jekyll/minima
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -43,4 +46,9 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Minima Socials
+# Minima
+minima:
+  skin: solarize
+  social_links:
+    - { platform: github,  user_url: "https://github.com/jmairs" }
+    - { platform: bluesky, user_url: "https://bsky.app/profile/john.mairs.me" }
