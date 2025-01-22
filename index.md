@@ -1,6 +1,5 @@
 ---
 layout: page
-title: John Mairs
-permalink: /
+title: Welcome!
 ---
 Hello! :)
