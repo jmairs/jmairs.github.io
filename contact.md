@@ -3,6 +3,6 @@ layout: page
 title: Contact
 ---
 Get in touch via...
-- Email: {{ site.author.email }}
-- BlueSky: (@john.mairs.me)[https://bsky.app/profile/john.mairs.me]
-- GitHub: (jmairs)[https://github.com/jmairs]
+- <i class="bi bi-envelope"></i> Email: {{ site.author.email }}
+- <i class="bi bi-at"></i> BlueSky: [@john.mairs.me](https://bsky.app/profile/john.mairs.me)
+- <i class="bi bi-github"></i> GitHub: [jmairs](https://github.com/jmairs)
