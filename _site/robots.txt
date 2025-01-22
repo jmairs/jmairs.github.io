@@ -1,1 +1,1 @@
-Sitemap: https://johnmairs.com/sitemap.xml
+Sitemap: https://john.mairs.me/sitemap.xml
