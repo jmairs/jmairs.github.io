@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contact
-permalink: /contact/
 order: 4
 ---
 Get in touch via...
