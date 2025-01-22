@@ -18,8 +18,8 @@ author:
   name: John Mairs
   email: "john@mairs.me"
 description: >- # this means to ignore newlines until "baseurl:"
-  John Mairs is a well-rounded IT professional with a wealth of experience in the education and
-  healthcare sectors. This serves as his personal portfolio and blog.
+  John Mairs is a well-rounded IT professional with a wealth of experience in the education,
+  healthcare, and news media sectors. This serves as his personal portfolio and blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://john.mairs.me" # the base hostname & protocol for your site, e.g. http://example.com
 
