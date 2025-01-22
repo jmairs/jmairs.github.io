@@ -3,4 +3,9 @@ layout: default
 title: About
 ---
 # About John
-Lorem ipsum is neat.
+
+John Mairs does stuff and things. Notable employers:
+- North Carolina Department of Public Instruction
+- M.D. Laser Studio
+- Passport Health
+- DeNovo Aesthetics
