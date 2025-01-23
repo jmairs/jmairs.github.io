@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../_sass/base-body-padding.scss"],"names":[],"mappings":"AAAA;EACI","sourcesContent":["body {\n    padding-top: 50px; // makes the content clear the navbar\n}"],"file":"styles.css"}
+{"version":3,"sourceRoot":"","sources":["../../_sass/base-body-padding.scss"],"names":[],"mappings":"AAAA;EACI;;;AAEF;EACE;IACE","sourcesContent":["body {\n    padding-top: 60px;\n  }\n  @media (max-width: 979px) {\n    body {\n      padding-top: 0px;\n    }\n  }"],"file":"styles.css"}
