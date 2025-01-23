@@ -1,10 +1,10 @@
 ---
 layout: page
 title: About
-order: 2
 ---
 
-My current employers include:
+## My current employers include:
+
 - **[North Carolina Department of Public Instruction](https://dpi.nc.gov)**
     - _Section Chief, PSU Technology Systems (Student UID, Staff UID, NCEdCloud)_
         - My team manages both the NCEdCloud IAM Service as well as the Student and Staff Unique Identification Systems. Combined, these systems provide identity and access management to over 2.5 million public school students and employees.
@@ -21,7 +21,8 @@ My current employers include:
     - _Developer_
         - Ongoing development and maintenance of Iredell Free News, a local online news source. Since inception in 2015, the site has grown significantly and the infrastructure scaled to match.
 
-And a non-exhaustive list of my skills:
+## And a non-exhaustive list of my skills:
+
 - Server administration, including Linux, Windows, and macOS
 - Desktop and mobile administration for all major operating systems
 - Google Workspace administration
@@ -31,7 +32,8 @@ And a non-exhaustive list of my skills:
 - Video editing
 - Wordpress deployment, configuration, and maintenance
 
-My past employers:
+## My past employers:
+
 - **[American Renaissance School](https://arsnc.org)**
     - _Director of Technology and Communications, 2012-2020_
         - Management of all technology, including mixed operating systems, hundreds of end-user devices, local network services across two buildings, and wide area network services between the buildings. Additionally, management and direction for all communications and public relations.

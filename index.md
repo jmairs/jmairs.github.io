@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Welcome!
-navtitle: Home
-order: 1
 ---
 Hello! I'm John Mairs. This is my personal website, created primarily as a living resumé, public notepad, and privately-hosted social media channel all in one. I'm a well-rounded IT generalist with experience in the education, healthcare, and news media sectors.
 
