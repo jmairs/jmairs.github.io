@@ -1,11 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="auto">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>John Mairs &raquo; Jekyll is pretty neat</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="/assets/js/auto-theme.js"></script>
     <link type="application/atom+xml" rel="alternate" href="https://john.mairs.me/feed.xml" title="John Mairs" />
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Jekyll is pretty neat | John Mairs</title>
@@ -33,72 +35,48 @@
         <a class="navbar-brand" href="https://john.mairs.me">John Mairs</a>
         <ul class="nav nav-pills">
           
+            
+            
+            <li class="nav-item">
+                <a href="/" class="nav-link">Home</a>
+            </li>
           
             
+            
+            <li class="nav-item">
+                <a href="/about" class="nav-link">About</a>
+            </li>
           
             
+            
+            <li class="nav-item">
+                <a href="/notes" class="nav-link active">Notes</a>
+            </li>
           
             
+            
+            <li class="nav-item">
+                <a href="/contact" class="nav-link">Contact</a>
+            </li>
           
-            
-          
-            
-                <li class="nav-item">
-                    <a href="/" class="nav-link">
-                        
-                        Home
-                      
-                    </a>
-                </li>
-            
-          
-            
-                <li class="nav-item">
-                    <a href="/about" class="nav-link">
-                      
-                        About
-                      
-                    </a>
-                </li>
-            
-          
-            
-                <li class="nav-item">
-                    <a href="/notes/" class="nav-link">
-                      
-                        Notes
-                      
-                    </a>
-                </li>
-            
-          
-            
-                <li class="nav-item">
-                    <a href="/contact" class="nav-link">
-                      
-                        Contact
-                      
-                    </a>
-                </li>
-            
           
         </ul>
       </nav>
-      <main class="my-100">
+      <main class="my-5">
         <article class="bg-body-tertiary p-3 my-5 m-3 rounded-2">
     <h1>Jekyll is pretty neat</h1>
-    <p>21 Jan 2025 - John Mairs</p>
+    <p class="badge rounded-pill text-bg-secondary">21 Jan 2025</p>
     <p>I wanted to simplify the way my personal website worked. With a little prior setup, <a href="https://jekyllrb.com/">Jekyll</a> allows me to write my content in Markdown and deploy straight to the web. This saves having to write every page by hand or run an inefficient CMS like Wordpress. Woop.</p>
 
 <h2 id="the-setup">The Setup</h2>
-<p>I tossed Ruby onto my Mac mini homelab server running Ubuntu. Then I created a Git repo for my personal GitHub Page and initialized it on the Mac mini. Finally, I added a Gemfile and bundled Jekyll into that directory. The site is built there with Jekyll, then deployed to the web via GitHub Pages.</p>
+<p>I tossed Ruby onto my Mac mini homelab server running Ubuntu. The site is built there with Jekyll, then deployed to the web via GitHub Pages.</p>
 
-<p>While I initially wanted to use the default Minima theme that comes with Jekyll, I wasn’t able to find that v3 of this theme had been released. Despite that, all the documentation and bugfixes seem to be in this mysterious v3 release that doesn’t exist.</p>
+<p>While I initially wanted to use the default Minima theme that comes with Jekyll, I wasn’t able to find that v3 of this theme had been released. Despite that, all the documentation and bugfixes seem to be geared to this mysterious v3 release that doesn’t exist.</p>
 
 <p>After spending way too much time on that, I just rebuilt my own basic theme by importing <a href="https://getbootstrap.com/">Bootstrap</a> from their CDN into my Jekyll layouts. This should be good enough <em>and</em> keeps things pretty generic and modular.</p>
 
 <h2 id="github-pages">GitHub Pages</h2>
-<p>GitHub pages are real slick. No need for a full fat webhost, and it adds version control to everything. Double woop. 😁</p>
+<p>GitHub pages are neat. No need for a full fat webhost, and it adds version control to everything. Double woop. 😁</p>
 
 <h2 id="final-thoughts">Final Thoughts</h2>
 <p>The setup was a bit of a pain — especially given that the default theme is largely unusable (or I’m too dense to figure it out) - but it still beats running Wordpress.</p>

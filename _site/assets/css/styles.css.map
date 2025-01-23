@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../_sass/base-body-padding.scss"],"names":[],"mappings":"AAAA;EACI","sourcesContent":["body {\n    padding-top: 50px; // makes the content clear the navbar\n}"],"file":"styles.css"}

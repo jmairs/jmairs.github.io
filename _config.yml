@@ -46,11 +46,13 @@ plugins:
 # Permalinks
 ## Global
 permalink: /:title
+
+## Set posts to live in /notes
 collections:
   posts:
     output: true
     permalink: /notes/:year/:month/:day/:title
 
 # Pagination
-paginate: 10
+paginate: 6
 paginate_path: "/notes/page:num/"
