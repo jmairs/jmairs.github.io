@@ -14,18 +14,24 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar bg-body-secondary fixed-top px-3 mb-3">
-        <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
-        <ul class="nav nav-pills">
-          {% for item in site.data.nav %}
-            {% assign itemArray = item.link | split: '/' %}
-            {% assign pageArray = page.url | split: '/' %}
-            <li class="nav-item">
-                <a href="{{ item.link }}" class="nav-link{% if pageArray[1] == itemArray[1] %} active{% endif %}">{{ item.name }}</a>
-            </li>
-          {% endfor %}
-          
-        </ul>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav nav-pills ms-auto justify-content-end">
+              {% for item in site.data.nav %}
+                {% assign itemArray = item.link | split: '/' %}
+                {% assign pageArray = page.url | split: '/' %}
+                <li class="nav-item">
+                    <a href="{{ item.link }}" class="nav-link{% if pageArray[1] == itemArray[1] %} active" aria-current="page"{% else %}"{% endif %}>{{ item.name }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+      </div>
       </nav>
       <main class="my-5">
         {{ content }}
