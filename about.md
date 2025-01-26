@@ -10,7 +10,7 @@ title: About
 ## My current employers include:
 
 - **[North Carolina Department of Public Instruction](https://dpi.nc.gov)**
-    - _Section Chief, PSU Technology Systems (Student UID, Staff UID, NCEdCloud)_
+    - _Section Chief, PSU Technology Systems_
         - My team manages both the NCEdCloud IAM Service as well as the Student and Staff Unique Identification Systems. Combined, these systems provide identity and access management to over 2.5 million public school students and employees.
 - **[M.D. Laser Studio](https://mdlaserstudio.com)**
     - _Contract IT Administrator_
