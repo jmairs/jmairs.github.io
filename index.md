@@ -11,7 +11,7 @@ My hobbies and interests at the moment include...
 - VSCode
 - Networking
     - TCP/IP
-    - RF Mesh
+    - [NC Mesh](https://ncmesh.net/)
 - DNS shenanigans
 - Homelabbing
 - Photography
