@@ -10,19 +10,19 @@ title: About
 ## My current employers include:
 
 - **[North Carolina Department of Public Instruction](https://dpi.nc.gov)**
-    - _Section Chief, PSU Technology Systems_
+    - _Section Chief, PSU Technology Systems, 2020-{{ 'now' | date: "%Y" }}_
         - My team manages both the NCEdCloud IAM Service as well as the Student and Staff Unique Identification Systems. Combined, these systems provide identity and access management to over 2.5 million public school students and employees.
 - **[M.D. Laser Studio](https://mdlaserstudio.com)**
-    - _Contract IT Administrator_
+    - _Contract IT Administrator, 2006-{{ 'now' | date: "%Y" }}_
         - Consulting and technical services in a small medical office running Windows workstations and Active Directory. A cloud-based electronic medical records software is augmented with a locally installed electronic imaging software.
 - **[Carolina Passport Health](https://passporthealthnc.com)**
-    - _Contract IT Administrator_
+    - _Contract IT Administrator, 2010-{{ 'now' | date: "%Y" }}_
         - Consulting and technical services in several small medical offices running macOS workstations, Google Suite, and web-based electronic medical records software.
 - **[De Novo Aesthetics](https://denovoaesthetics.com)**
-    - _Contract IT Administrator_
+    - _Contract IT Administrator, 2015-{{ 'now' | date: "%Y" }}_
         - Consulting and technical services in a small medical office. A mix of Windows workstations and iPads running a cloud-based electronic medical records software enables secure and portable service.
 - **[Iredell Free News](https://iredellfreenews.com)**
-    - _Developer_
+    - _Developer, 2015-{{ 'now' | date: "%Y" }}_
         - Ongoing development and maintenance of Iredell Free News, a local online news source. Since inception in 2015, the site has grown significantly and the infrastructure scaled to match.
 
 ## And a non-exhaustive list of my skills:
